@@ -7,35 +7,101 @@
                     bootstrap home
                 </title>
                 <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" rel="stylesheet">
-
-                <link rel="stylesheet" href="css/main.css">
+                    <link href="css/main.css" rel="stylesheet">
+                    </link>
                 </link>
             </meta>
         </meta>
     </head>
     <body>
-        <div class="container-xl">
+        <header>
+            <!-- <nav>
+                <div class="container">
+                    <ul class="nav navbar-light bg-light">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Images</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Buttons</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img alt="" src="https://picsum.photos/50/50">
+                        </img>
+                    </a>
+                    <button aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navCollapse" data-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon">
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="tables.html">
+                                    Tables
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="images.html">
+                                    Images
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="buttons.html">
+                                    Buttons
+                                </a>
+                            </li>
+                        </ul> 
+                        <form action="#" class="d-flex">
+                        <input class="form-control mr-2" placeholder="Search" type="text">
+                            <button class="btn btn-sm btn-outline-primary">
+                                Search
+                            </button>
+                        </input>
+                    </form>`
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <div class="container">
             <h1>
                 Home Page
             </h1>
-            <div>
-                <p>
-                    <span>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia ullam praesentium, aliquid doloremque odit nulla cupiditate, nam amet dolore sed dicta sapiente porro asperiores nesciunt vero distinctio possimus eum.
-                    </span>
-                    <span>
-                        Consectetur, maiores aliquid accusamus eum natus excepturi perspiciatis deserunt ipsum numquam optio ratione alias vero non quas fuga sed, laboriosam tenetur, laborum, voluptatem veniam maxime. Impedit explicabo dignissimos, labore adipisci.
-                    </span>
-                    <span>
-                        Et exercitationem fuga molestias a vero eum obcaecati, aspernatur maxime minus est tenetur atque incidunt suscipit id consequuntur deserunt, veniam expedita perferendis aliquid aperiam dignissimos quod, eaque iure quidem! Ullam.
-                    </span>
-                    <span>
-                        Repellat autem, obcaecati nam repudiandae sit enim, nihil eveniet iure sed voluptas tempore inventore totam quasi molestiae earum laudantium qui explicabo vero libero incidunt cum atque tenetur fugit aliquam. Exercitationem.
-                    </span>
-                    <span>
-                        Dolorem, voluptatum, aut rerum est assumenda qui, incidunt, deleniti quod vel neque cumque quae. Iste cumque consequatur sit aperiam aut. Soluta odio ex saepe explicabo, dicta et, maiores aliquam commodi?
-                    </span>
-                </p>
+            <div class="row mt-5">
+                <div class="col">
+                    <p>
+                        <span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quia ullam praesentium, aliquid doloremque odit nulla cupiditate, nam amet dolore sed dicta sapiente porro asperiores nesciunt vero distinctio possimus eum.
+                        </span>
+                        <span>
+                            Consectetur, maiores aliquid accusamus eum natus excepturi perspiciatis deserunt ipsum numquam optio ratione alias vero non quas fuga sed, laboriosam tenetur, laborum, voluptatem veniam maxime. Impedit explicabo dignissimos, labore adipisci.
+                        </span>
+                        <span>
+                            Et exercitationem fuga molestias a vero eum obcaecati, aspernatur maxime minus est tenetur atque incidunt suscipit id consequuntur deserunt, veniam expedita perferendis aliquid aperiam dignissimos quod, eaque iure quidem! Ullam.
+                        </span>
+                        <span>
+                            Repellat autem, obcaecati nam repudiandae sit enim, nihil eveniet iure sed voluptas tempore inventore totam quasi molestiae earum laudantium qui explicabo vero libero incidunt cum atque tenetur fugit aliquam. Exercitationem.
+                        </span>
+                        <span>
+                            Dolorem, voluptatum, aut rerum est assumenda qui, incidunt, deleniti quod vel neque cumque quae. Iste cumque consequatur sit aperiam aut. Soluta odio ex saepe explicabo, dicta et, maiores aliquam commodi?
+                        </span>
+                    </p>
+                </div>
             </div>
             <div class="row">
                 <div class="col">
@@ -54,7 +120,7 @@
             <div class="row">
                 <div class="col">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid repellendus sequi, officia est odio quod culpa veritatis eveniet quibusdam illo, recusandae quidem officiis ullam optio excepturi alias reiciendis unde accusantium.
-				Quis est similique optio labore, fuga velit possimus nostrum illum fugiat laudantium molestiae quia corrupti totam debitis sequi hic beatae eaque eius dignissimos explicabo consequuntur aspernatur dolores a! Dolore, exercitationem?
+                Quis est similique optio labore, fuga velit possimus nostrum illum fugiat laudantium molestiae quia corrupti totam debitis sequi hic beatae eaque eius dignissimos explicabo consequuntur aspernatur dolores a! Dolore, exercitationem?
                 </div>
                 <div class="col">
                 </div>
@@ -85,5 +151,7 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Dolorem nulla tempore, aspernatur, velit magnam eum. Voluptatum optio nostrum, totam libero, exercitationem consectetur tempore, ut perferendis corporis eius modi blanditiis quas. ctetur adipisicing, elit. Dolorem nulla tempore, aspernatur, velit magnam eum. Voluptatum optio nostrum, totam libero, exercitationem consectetur tempore, ut perferendis corporis eius modi blanditiis quas.
             </p>
         </div>
+        <script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
+        </script>
     </body>
 </html>
